@@ -169,7 +169,7 @@
 				</div><!--contato-left-->
 				<div class="contato-right w50">
 					<h2>Enviar uma mensagem</h2>
-					<form id="form" action="sendmail.php" method="post">
+					<form id="form" <!--action="sendmail.php" method="post"--> />
 						<input class="form nome" type="text" name="nome" placeholder="Seu nome..." required />
 						<input class="form email" type="email" name="email" placeholder="Seu e-mail..." required />
 						<input class="form tel" id="fone" type="tel" name="telefone" placeholder="Telefone p/ contato..." />
